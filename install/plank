@@ -1,0 +1,10 @@
+echo "Adding ppa for plank..."
+
+add-apt-repository ppa:ricotz/docky
+
+echo "Installing plank..."
+
+apt-get update
+apt-get install plank
+
+echo "Plank successful installed"
