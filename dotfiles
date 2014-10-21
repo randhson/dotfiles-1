@@ -1,0 +1,24 @@
+#!/bin/bash
+############################
+#
+#
+############################
+
+## Variables
+dir=~
+
+
+echo "[?] Which computer name would you like to use?"
+read computer_name
+
+echo "[?] Which Git name would you like to use?"
+read git_username
+
+echo "[?] Which Git email would you like to use?"
+read git_email
+
+echo "[?] Which editor would you like to use?"
+read user_editor
+
+echo "[?] Which Oh My Zsh theme would you like to use?"
+read oh_my_zsh_theme
