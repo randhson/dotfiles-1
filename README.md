@@ -9,7 +9,7 @@
 [Download](https://github.com/randsonjs/dotfiles/archive/master.zip) this repository and put the terminal:
 
 ```sh
-$ cd dotfiles/dotfiles
+$ cd dotfiles/ && ./dotfiles
 ```
 
 If you have git installed, first clone this repository:
