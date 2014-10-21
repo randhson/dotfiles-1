@@ -10,4 +10,4 @@
 5. Submit a pull request :D
 
 ## License
-[MIT LICENSE](./LICENSE) © Randson Oliveira
+[MIT License](./LICENSE) © Randson Oliveira
