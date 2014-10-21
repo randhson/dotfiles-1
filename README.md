@@ -4,22 +4,36 @@ My dotfiles for ubuntu, this setup will install everything I use on Ubuntu 14.04
 
 ## How to install?
 
-[Download](https://github.com/randsonjs/dotfiles/archive/master.zip) this repository and put the terminal:
-
-```sh
-$ cd dotfiles/ && ./dotfiles
-```
+[Download](https://github.com/randsonjs/dotfiles/archive/master.zip) this repository to your home directory and renaming directory to `.dotfiles`.
 
 If you have git installed, first clone this repository:
 
 ```sh
-$ git clone git@github.com:randsonjs/dotfiles.git && cd dotfiles
+$ git clone git@github.com:randsonjs/dotfiles.git ~/.dotfiles
 ```
 
-And enter it:
+Now, we need to move the dotfile file to user directory:
 
 ```sh
-$ ./dotfiles
+$ [sudo] cp ~/.dotfiles/dotfiles /usr/local/bin/dotfiles
+```
+
+Now you can use dotfile for install and update. See below how make this.
+
+## Install packages
+
+This command will install all packages available.
+
+```sh
+$ dotfiles install
+```
+
+## Update packages
+
+This command will update the package you choose.
+
+```sh
+$ dotfiles update <package-name>
 ```
 
 PS: This configuration will install git :P
