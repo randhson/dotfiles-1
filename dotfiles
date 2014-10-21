@@ -1,12 +1,21 @@
 #!/bin/bash
-############################
+########################################################
 #
+# Copyright 2014, All Rights Reserved.
 #
-############################
+# Code licensed under the MIT LICENSE:
+# https://github.com/randsonjs/dotfiles/blob/master/LICENSE
+#
+# @Author Randson Oliveira <randsonjs@gmail.com>
+#
+########################################################
 
 ## Variables
 dir=~
+dotfiles="$dir/.dotfiles"
 
+## Import files from install directory
+#source install/install
 
 echo "[?] Which computer name would you like to use?"
 read computer_name
