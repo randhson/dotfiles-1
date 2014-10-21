@@ -6,12 +6,6 @@ My dotfiles for ubuntu, this setup will install everything I use on Ubuntu 14.04
 
 [Download](https://github.com/randsonjs/dotfiles/archive/master.zip) this repository to your home directory and renaming directory to `.dotfiles`.
 
-If you have git installed, first clone this repository:
-
-```sh
-$ git clone git@github.com:randsonjs/dotfiles.git ~/.dotfiles
-```
-
 Now, we need to move the dotfile file to user directory:
 
 ```sh
