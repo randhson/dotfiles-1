@@ -18,7 +18,7 @@ Now, we need to move the dotfile file to user directory:
 $ [sudo] cp ~/.dotfiles/dotfiles /usr/local/bin/dotfiles
 ```
 
-Now you can use dotfile for install and update. See below how make this.
+Now you can use dotfiles for install and update. See below how make this.
 
 ## Install packages
 
