@@ -4,6 +4,28 @@
 
 1 - Install [Git](http://git-scm.com), if you don't have it yet.
 
+## How to install?
+
+[Download](https://github.com/randsonjs/dotfiles/archive/master.zip) this repository and put the terminal:
+
+```sh
+$ cd dotfiles/dotfiles
+```
+
+If you have git installed, first clone this repository:
+
+```sh
+$ git clone git@github.com:randsonjs/dotfiles.git && cd dotfiles
+```
+
+And enter it:
+
+```sh
+$ ./dotfiles
+```
+
+PS: This configuration will install git :P
+
 
 ## Contributing
  
