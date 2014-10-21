@@ -1,5 +1,9 @@
 # Randson's dotfiles
-========
+
+## Dependencies
+
+1 - Install [Git](http://git-scm.com), if you don't have it yet.
+
 
 ## Contributing
  
