@@ -30,8 +30,6 @@ This command will update the package you choose.
 $ dotfiles update <package-name>
 ```
 
-PS: This configuration will install git :P
-
 ## What's included?
 
 All my command-line tools and it's configuration. Have fun :)
