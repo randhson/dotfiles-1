@@ -1,0 +1,18 @@
+echo "Installing Skype..."
+
+apt-get install libqt4-dbus libqt4-network libqt4-xml libasound2
+
+echo "Downloading skype from skype.com ..."
+
+if [ "$BI" -eq 64 ]; then
+  wget http://www.skype.com/go/getskype-linux-beta-ubuntu-64
+else
+  wget http://www.skype.com/go/getskype-linux-beta-ubuntu-32
+fi
+
+echo "Uncompressed skype"
+
+dpkg -i getskype-*
+apt-get -f install
+
+echo "Done, now skype is installed..."
