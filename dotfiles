@@ -22,9 +22,6 @@ msg '                                                                           
 dir=~
 dotfiles="$dir/.dotfiles"
 
-## Import files from install directory
-#source install/install
-
 echo "[?] Which computer name would you like to use?"
 read computer_name
 
@@ -39,3 +36,6 @@ read user_editor
 
 echo "[?] Which Oh My Zsh theme would you like to use?"
 read oh_my_zsh_theme
+
+## Import files from install directory
+source install/install
