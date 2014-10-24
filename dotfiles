@@ -80,6 +80,9 @@ echo "Now, select color scheme dracula on your sublime :)"
 git clone https://github.com/kkga/spacegray.git "Theme - Spacegray"
 sudo mv Theme\ -\ Spacegray ~/.config/sublime-text-3/Packages/
 
+# Copy sublime preferences for correct directory
+sudo cp templates/Preferences-sublime-settings ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+
 ### Skype
 echo "Installing dependencies for skype..."
 sudo apt-get install libqt4-dbus libqt4-network libqt4-xml libasound2
