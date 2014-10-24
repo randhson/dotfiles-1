@@ -1,5 +1,7 @@
 # Randson's dotfiles
 
+![Screenshot](./screenshot.png)
+
 My dotfiles for ubuntu, this setup will install everything I use on Ubuntu 14.04. You can also use, since it is setup installs really useful things. See below what it installs, I'll be happy if it is useful for you.
 
 ## How to install?
