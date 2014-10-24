@@ -114,6 +114,16 @@ echo "Downloading clementine..."
 sudo apt-get install clementine
 echo "Done, clementine is installed :P"
 
+### cURL
+echo "Installing cURL"
+sudo apt-get install curl
+echo "Done, cURL successful installed."
+
+### php5-cli
+echo "Installing php5-cli"
+sudo apt-get install php5-cli
+echo "php5-cli installed"
+
 ### Composer
 echo "Downloading composer..."
 curl -sS https://getcomposer.org/installer | php
