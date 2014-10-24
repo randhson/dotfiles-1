@@ -48,6 +48,7 @@ All my command-line tools and it's configuration. Have fun :)
 * [Plank](http://wiki.go-docky.com/index.php?title=Plank:Installing)
 * [Unity Tweak Tool](https://apps.ubuntu.com/cat/applications/unity-tweak-tool/) for manage themes and others stuff
 * [Clementine](https://www.clementine-player.org/) the best music player
+* [Chromium Browser](http://www.chromium.org/Home) Chromium Browser
 
 ###### Aliases
 
