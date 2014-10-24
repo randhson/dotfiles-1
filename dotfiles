@@ -117,6 +117,9 @@ echo "Done, clementine is installed :P"
 ### Chromium Browser
 sudo apt-get install chromium-browser
 
+### Filezilla
+sudo apt-get install filezilla
+
 ### cURL
 echo "Installing cURL"
 sudo apt-get install curl
