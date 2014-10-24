@@ -49,7 +49,7 @@ All my command-line tools and it's configuration. Have fun :)
 * [Spacegray](http://kkga.github.io/spacegray) for better theme on Sublime Text 3
 * [Dracula]() for better syntax highlight for [ZSH](http://zsh.org/), [iTerm2](http://www.iterm2.com/) and [Alfred](http://www.alfredapp.com/)
 
-###### Ubuntu
+###### General
 
 * [Skype](http://skype.com) for chat and video messages
 * [Numix](https://numixproject.org/) for better theme for ubuntu
@@ -60,16 +60,14 @@ All my command-line tools and it's configuration. Have fun :)
 * [Filezilla](https://filezilla-project.org/) for FTP Client
 * [VLC Media Player](http://www.videolan.org/vlc/) for video player
 
-###### Aliases
-
-###### General
-
 ###### NodeJS
 
 ###### Ruby
 
 ###### PHP
 
+* [cURL](http://curl.haxx.se/) for download some dependencies
+* [php5-cli](http://www.php-cli.com/) for PHP command line
 * [Composer](http://getcomposer.org) for Dependency Manager for PHP
 
 ## Credits
