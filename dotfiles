@@ -70,6 +70,10 @@ sudo rm -r draculda-theme
 echo "Copy template zsh"
 sudo cp templates/.zsh ~/.zshrc
 
+### Spacegray Theme Sublime Text 3
+git clone https://github.com/kkga/spacegray.git "Theme - Spacegray"
+sudo mv Theme\ -\ Spacegray ~/.config/sublime-text-3/Packages/
+
 ### Skype
 echo "Installing dependencies for skype..."
 sudo apt-get install libqt4-dbus libqt4-network libqt4-xml libasound2
