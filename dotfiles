@@ -153,3 +153,12 @@ curl -sS https://getcomposer.org/installer | php
 echo "Moving composer.phar to /usr/local/bin/composer ..."
 sudo mv composer.phar /usr/local/bin/composer
 echo "Done, now you can use composer command :)"
+
+### xclip - generate ssh key for github
+echo "Generate you SSH key for github"
+ssh-keygen -t rsa -C "$git_email"
+eval "$(ssh-agent -s)" 
+ssh-add ~/.ssh/id_rsa
+sudo apt-get install xclip
+xclip -sel clip < ~/.ssh/id_rsa.pub
+echo "Now, you can paste ssh key on github"

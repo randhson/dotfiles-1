@@ -70,6 +70,10 @@ All my command-line tools and it's configuration. Have fun :)
 * [php5-cli](http://www.php-cli.com/) for PHP command line
 * [Composer](http://getcomposer.org) for Dependency Manager for PHP
 
+###### GitHub
+
+* [xCLIP]() for copy ssh key to clipboard
+
 ## Credits
 
 * Themes based on [@zenorocha Dracula](https://github.com/zenorocha/dracula-theme)
