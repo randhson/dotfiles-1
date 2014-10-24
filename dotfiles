@@ -137,6 +137,9 @@ sudo apt-get install filezilla
 ### VLC Media Player
 sudo apt-get install vlc
 
+### Adobe Flash Player Plugin
+sudo apt-get install adobe-flashplugin
+
 ### cURL
 echo "Installing cURL"
 sudo apt-get install curl

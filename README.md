@@ -4,6 +4,13 @@
 
 My dotfiles for ubuntu, this setup will install everything I use on Ubuntu 14.04. You can also use, since it is setup installs really useful things. See below what it installs, I'll be happy if it is useful for you.
 
+## Dependencies
+
+For install `adobe-flashplayer` you need follow these steps:
+
+1. Open `Software and Updates` in `System Settings`  and set Canonical Partners in Other Software.
+2. Do nothing, the dotfiles will install for you :)
+
 ## How to install?
 
 Download via `wget`:
@@ -61,6 +68,7 @@ All my command-line tools and it's configuration. Have fun :)
 * [Chromium Browser](http://www.chromium.org/Home) Chromium Browser
 * [Filezilla](https://filezilla-project.org/) for FTP Client
 * [VLC Media Player](http://www.videolan.org/vlc/) for video player
+* [Adobe Flash Player Plugin]() for videos on chromium
 
 ###### NodeJS
 
