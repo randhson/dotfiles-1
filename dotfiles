@@ -70,6 +70,12 @@ sudo rm -r draculda-theme
 echo "Copy template zsh"
 sudo cp templates/.zsh ~/.zshrc
 
+
+### Dracula Color Scheme Sublime Text 3
+git clone https://github.com/zenorocha/dracula-theme/ "Dracula Color Scheme"
+sudo mv Dracula\ Color\ Scheme ~/.config/sublime-text-3/Packages
+echo "Now, select color scheme dracula on your sublime :)"
+
 ### Spacegray Theme Sublime Text 3
 git clone https://github.com/kkga/spacegray.git "Theme - Spacegray"
 sudo mv Theme\ -\ Spacegray ~/.config/sublime-text-3/Packages/
