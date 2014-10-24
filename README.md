@@ -66,7 +66,7 @@ All my command-line tools and it's configuration. Have fun :)
 
 ###### PHP
 
-* [cURL](http://curl.haxx.se/) for download some dependencies
+* [cURL](http://curl.haxx.se/)
 * [php5-cli](http://www.php-cli.com/) for PHP command line
 * [Composer](http://getcomposer.org) for Dependency Manager for PHP
 
