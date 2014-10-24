@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Installing Skype..."
+echo "Installing dependencies for skype..."
 
 apt-get install libqt4-dbus libqt4-network libqt4-xml libasound2
 
@@ -12,7 +12,7 @@ else
   wget http://www.skype.com/go/getskype-linux-beta-ubuntu-32
 fi
 
-echo "Uncompressed skype"
+echo "Decompressing skype package and install..."
 
 dpkg -i getskype-*
 apt-get -f install
