@@ -4,23 +4,31 @@ My dotfiles for ubuntu, this setup will install everything I use on Ubuntu 14.04
 
 ## How to install?
 
-[Download](https://github.com/randsonjs/dotfiles/archive/master.zip) this repository to your home directory and renaming directory to `.dotfiles`.
-
-Now, we need to move the dotfile file to user directory:
+Download via `wget`:
 
 ```sh
-$ [sudo] cp ~/.dotfiles/dotfiles /usr/local/bin/dotfiles
+$ wget https://github.com/randsonjs/dotfiles/archive/master.zip
 ```
 
-Now you can use dotfiles for install/update. See below how make this.
-
-## Install/update packages
-
-This command will install/update all packages available.
+We need the unzip file, following these commands: 
 
 ```sh
-$ dotfiles
+$ sudo unzip master.zip
 ```
+
+The `unzip`command will create a `dotfiles-master` folder, we need enter in this directory:
+
+```sh
+$ cd dotfiles-master
+```
+
+And finnaly run: 
+
+```sh
+$ ./dotfiles
+```
+
+The dotfiles will ask your password a first time. And also confirm the installation of packages. For now, enjoy the codes in your terminal :)
 
 ## What's included?
 
