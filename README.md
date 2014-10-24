@@ -12,38 +12,44 @@ Now, we need to move the dotfile file to user directory:
 $ [sudo] cp ~/.dotfiles/dotfiles /usr/local/bin/dotfiles
 ```
 
-Now you can use dotfiles for install and update. See below how make this.
+Now you can use dotfiles for install/update. See below how make this.
 
-## Install packages
+## Install/update packages
 
-This command will install all packages available.
-
-```sh
-$ dotfiles install
-```
-
-## Update packages
-
-This command will update the package you choose.
+This command will install/update all packages available.
 
 ```sh
-$ dotfiles update <package-name>
+$ dotfiles
 ```
 
 ## What's included?
 
 All my command-line tools and it's configuration. Have fun :)
 
-###### Aliases
-
 ###### Shell
 
+* [GIT](http://git-scm.com) for Version Control System
 * [ZSH](http://zsh.org/) for shell
 * [Oh my ZSH](https://github.com/robbyrussell/oh-my-zsh) for ZSH tweaking
 
+###### Editors
+
+* [Sublime Text 3](http://sublimetext.com/3) Code Editor
+
 ###### Themes
 
+* [Spacegray](http://kkga.github.io/spacegray) for better theme on Sublime Text 3
 * [Dracula]() for better syntax highlight for [ZSH](http://zsh.org/), [iTerm2](http://www.iterm2.com/) and [Alfred](http://www.alfredapp.com/)
+
+###### Ubuntu
+
+* [Skype](http://skype.com) for chat and video messages
+* [Numix](https://numixproject.org/) for better theme for ubuntu
+* [Plank](http://wiki.go-docky.com/index.php?title=Plank:Installing)
+* [Unity Tweak Tool](https://apps.ubuntu.com/cat/applications/unity-tweak-tool/) for manage themes and others stuff
+* [Clementine](https://www.clementine-player.org/) the best music player
+
+###### Aliases
 
 ###### General
 
@@ -51,11 +57,9 @@ All my command-line tools and it's configuration. Have fun :)
 
 ###### Ruby
 
-###### Ubuntu
-
 ###### PHP
 
-* [Composer](http://getcomposer.org) &mdash; Dependency Manager for PHP
+* [Composer](http://getcomposer.org) for Dependency Manager for PHP
 
 ## Credits
 
