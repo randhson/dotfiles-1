@@ -11,12 +11,12 @@
 ########################################################
 
 # Create your here: http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20
-msg ' __    __    __  __        _____     ______    ______   ______   __     __         ______     ______    '
-msg '/\ "-./  \  /\ \_\ \      /\  __-.  /\  __ \  /\__  _\ /\  ___\ /\ \   /\ \       /\  ___\   /\  ___\   '
-msg '\ \ \-./\ \ \ \____ \     \ \ \/\ \ \ \ \/\ \ \/_/\ \/ \ \  __\ \ \ \  \ \ \____  \ \  __\   \ \___  \  '
-msg ' \ \_\ \ \_\ \/\_____\     \ \____-  \ \_____\   \ \_\  \ \_\    \ \_\  \ \_____\  \ \_____\  \/\_____\ '
-msg '  \/_/  \/_/  \/_____/      \/____/   \/_____/    \/_/   \/_/     \/_/   \/_____/   \/_____/   \/_____/ '
-msg '                                                                                                        '
+echo '  _____     ______    ______   ______   __     __         ______     ______    '
+echo ' /\  __-.  /\  __ \  /\__  _\ /\  ___\ /\ \   /\ \       /\  ___\   /\  ___\   '
+echo ' \ \ \/\ \ \ \ \/\ \ \/_/\ \/ \ \  __\ \ \ \  \ \ \____  \ \  __\   \ \___  \  '
+echo '  \ \____-  \ \_____\   \ \_\  \ \_\    \ \_\  \ \_____\  \ \_____\  \/\_____\ '
+echo '   \/____/   \/_____/    \/_/   \/_/     \/_/   \/_____/   \/_____/   \/_____/ '
+echo '                                                                                                        '
 
 ## Variables
 dir=~
@@ -25,17 +25,70 @@ dotfiles="$dir/.dotfiles"
 echo "[?] Which computer name would you like to use?"
 read computer_name
 
+echo "[?] What is your BI? [32bits or 64bits]"
+read BI
+
 echo "[?] Which Git name would you like to use?"
 read git_username
 
 echo "[?] Which Git email would you like to use?"
 read git_email
 
-echo "[?] Which editor would you like to use?"
-read user_editor
+### GIT
+echo "Installing dependencies for git..."
+sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \
+  libz-dev libssl-dev
+echo "Installing git..."
+sudo apt-get install git
+sudo git config --global user.name "$git_username"
+sudo git config --global user.email "$git_email"
+sudo git config --global color.ui auto
+echo "Successful installed git..."
 
-echo "[?] Which Oh My Zsh theme would you like to use?"
-read oh_my_zsh_theme
+### Composer
+echo "Downloading composer..."
+curl -sS https://getcomposer.org/installer | php
+echo "Moving composer.phar to /usr/local/bin/composer ..."
+sudo mv composer.phar /usr/local/bin/composer
+echo "Done, now you can use composer command :)"
 
-## Import files from install directory
-source install/install
+### Numix
+echo "Installing numix-gtk theme on ubuntu..."
+sudo add-apt-repository ppa:numix/ppa
+sudo apt-get update
+sudo apt-get install numix-gtk-theme
+sudo apt-get update
+sudo apt-get install numix-icon-theme-circle
+echo "Numix GTK theme and icon theme circle successfull installed"
+
+### Plank
+echo "Adding ppa for plank..."
+sudo add-apt-repository ppa:ricotz/docky
+echo "Installing plank..."
+sudo apt-get update
+sudo apt-get install plank
+echo "Plank successful installed"
+
+### Skype
+echo "Installing dependencies for skype..."
+sudo apt-get install libqt4-dbus libqt4-network libqt4-xml libasound2
+echo "Downloading skype from skype.com ..."
+if [ "$BI" -eq 64 ]; then
+  wget http://www.skype.com/go/getskype-linux-beta-ubuntu-64
+else
+  wget http://www.skype.com/go/getskype-linux-beta-ubuntu-32
+fi
+
+echo "Decompressing skype package and install..."
+sudo dpkg -i getskype-*
+sudo apt-get -f install
+echo "Done, now skype is installed..."
+
+### Unity Tweak Tool
+
+### Sublime Text 3
+
+### Clementine
+echo "Downloading clementine..."
+sudo apt-get install clementine
+echo "Done, clementine is installed :P"
