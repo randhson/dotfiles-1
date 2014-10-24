@@ -58,6 +58,7 @@ All my command-line tools and it's configuration. Have fun :)
 * [Clementine](https://www.clementine-player.org/) the best music player
 * [Chromium Browser](http://www.chromium.org/Home) Chromium Browser
 * [Filezilla](https://filezilla-project.org/) for FTP Client
+* [VLC Media Player](http://www.videolan.org/vlc/) for video player
 
 ###### Aliases
 

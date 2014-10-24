@@ -133,6 +133,10 @@ sudo apt-get install chromium-browser
 ### Filezilla
 sudo apt-get install filezilla
 
+
+### VLC Media Player
+sudo apt-get install vlc
+
 ### cURL
 echo "Installing cURL"
 sudo apt-get install curl
