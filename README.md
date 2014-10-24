@@ -13,7 +13,7 @@ $ wget https://github.com/randsonjs/dotfiles/archive/master.zip
 We need the unzip file, following these commands: 
 
 ```sh
-$ sudo unzip master.zip
+$ [sudo] unzip master.zip
 ```
 
 The `unzip`command will create a `dotfiles-master` folder, we need enter in this directory:
