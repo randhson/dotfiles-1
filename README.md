@@ -69,6 +69,7 @@ All my command-line tools and it's configuration. Have fun :)
 * [Filezilla](https://filezilla-project.org/) for FTP Client
 * [VLC Media Player](http://www.videolan.org/vlc/) for video player
 * [Adobe Flash Player Plugin]() for videos on chromium
+* [Pidgin](https://pidgin.im/) for chat client
 
 ###### NodeJS
 

@@ -143,6 +143,12 @@ sudo apt-get install vlc
 ### Adobe Flash Player Plugin
 sudo apt-get install adobe-flashplugin
 
+### Pidgin
+echo "Installing pidgin chat client"
+sudo add-apt-repository -y ppa:pidgin-developers/ppa
+sud apt-get update
+sudo apt-get install pidgin
+
 ### cURL
 echo "Installing cURL"
 sudo apt-get install curl
