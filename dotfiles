@@ -83,6 +83,9 @@ sudo mv Theme\ -\ Spacegray ~/.config/sublime-text-3/Packages/
 # Copy sublime preferences for correct directory
 sudo cp templates/Preferences-sublime-settings ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
 
+# st3 package control plugin
+curl https://sublime.wbond.net/Package%20Control.sublime-package -o ~/.config/sublime-text-3/Installed\ Packages/Package\ Control.sublime-package
+
 ### Skype
 echo "Installing dependencies for skype..."
 sudo apt-get install libqt4-dbus libqt4-network libqt4-xml libasound2
