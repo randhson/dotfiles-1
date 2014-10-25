@@ -71,6 +71,7 @@ All my command-line tools and it's configuration. Have fun :)
 * [Adobe Flash Player Plugin]() for videos on chromium
 * [Pidgin](https://pidgin.im/) for chat client
 * [GParted](http://gparted.org/) for partition edit
+* [gitg](https://github.com/jessevdk/gitg) for UI git
 
 ###### NodeJS
 

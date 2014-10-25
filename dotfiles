@@ -159,6 +159,9 @@ sudo apt-get install pidgin
 ### GParted
 sudo apt-get install gparted
 
+### gitg
+sudo apt-get install gitg
+
 ######################################################## NodeJS
 
 ######################################################## Ruby
