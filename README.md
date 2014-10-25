@@ -70,6 +70,7 @@ All my command-line tools and it's configuration. Have fun :)
 * [VLC Media Player](http://www.videolan.org/vlc/) for video player
 * [Adobe Flash Player Plugin]() for videos on chromium
 * [Pidgin](https://pidgin.im/) for chat client
+* [GParted](http://gparted.org/) for partition edit
 
 ###### NodeJS
 
