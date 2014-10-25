@@ -156,6 +156,9 @@ sudo add-apt-repository -y ppa:pidgin-developers/ppa
 sud apt-get update
 sudo apt-get install pidgin
 
+### GParted
+sudo apt-get install gparted
+
 ######################################################## NodeJS
 
 ######################################################## Ruby
