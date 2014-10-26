@@ -77,6 +77,7 @@ All my command-line tools and it's configuration. Have fun :)
 ###### NodeJS
 
 * [Bower](http://bower.io) for front-end package management
+* [Grunt CLI](http://gruntjs.com) for grunt command line interface
 
 ###### Ruby
 

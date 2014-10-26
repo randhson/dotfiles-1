@@ -189,6 +189,9 @@ echo "nodejs and npm successful installed..."
 ### Bower
 sudo npm install -g bower
 
+### Grunt CLI
+sudo npm install -g grunt-cli
+
 ######################################################## Ruby
 
 ######################################################## PHP
