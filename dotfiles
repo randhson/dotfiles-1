@@ -31,6 +31,18 @@ read git_username
 echo "[?] Which Git email would you like to use?"
 read git_email
 
+######################################################## Essentials
+
+### cURL
+echo "Installing cURL"
+sudo apt-get install curl
+echo "Done, cURL successful installed."
+
+### php5-cli
+echo "Installing php5-cli"
+sudo apt-get install php5-cli
+echo "php5-cli installed"
+
 ######################################################## Shell
 
 ### GIT
@@ -162,21 +174,14 @@ sudo apt-get install gparted
 ### gitg
 sudo apt-get install gitg
 
+### Virtual Box
+sudo apt-get install virtualbox
+
 ######################################################## NodeJS
 
 ######################################################## Ruby
 
 ######################################################## PHP
-
-### cURL
-echo "Installing cURL"
-sudo apt-get install curl
-echo "Done, cURL successful installed."
-
-### php5-cli
-echo "Installing php5-cli"
-sudo apt-get install php5-cli
-echo "php5-cli installed"
 
 ### Composer
 echo "Downloading composer..."
