@@ -76,6 +76,8 @@ All my command-line tools and it's configuration. Have fun :)
 
 ###### NodeJS
 
+* [Bower](http://bower.io) for front-end package management
+
 ###### Ruby
 
 ###### PHP
