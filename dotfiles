@@ -179,6 +179,13 @@ sudo apt-get install virtualbox
 
 ######################################################## NodeJS
 
+### NodeJS
+
+echo "Installing nodejs..."
+curl -sL https://deb.nodesource.com/setup | sudo bash -
+sudo apt-get install nodejs
+echo "nodejs and npm successful installed..."
+
 ######################################################## Ruby
 
 ######################################################## PHP
