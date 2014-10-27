@@ -19,7 +19,7 @@ Download via `wget`:
 $ wget https://github.com/randsonjs/dotfiles/archive/master.zip
 ```
 
-We need the unzip file, following these commands: 
+We need the unzip file, following these commands:
 
 ```sh
 $ [sudo] unzip master.zip
@@ -31,7 +31,7 @@ The `unzip`command will create a `dotfiles-master` folder, we need enter in this
 $ cd dotfiles-master
 ```
 
-And finnaly run: 
+And finnaly run:
 
 ```sh
 $ ./dotfiles
@@ -78,6 +78,7 @@ All my command-line tools and it's configuration. Have fun :)
 
 * [Bower](http://bower.io) for front-end package management
 * [Grunt CLI](http://gruntjs.com) for grunt command line interface
+* [NodeGH](http://github.com/node-gh/gh) GitHub command line tools
 
 ###### Ruby
 

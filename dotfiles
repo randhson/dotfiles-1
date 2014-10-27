@@ -192,6 +192,9 @@ sudo npm install -g bower
 ### Grunt CLI
 sudo npm install -g grunt-cli
 
+### NodeGH
+sudo npm install -g gh
+
 ######################################################## Ruby
 
 ######################################################## PHP
@@ -208,7 +211,7 @@ echo "Done, now you can use composer command :)"
 ### xclip - generate ssh key for github
 echo "Generate you SSH key for github"
 ssh-keygen -t rsa -C "$git_email"
-eval "$(ssh-agent -s)" 
+eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 sudo apt-get install xclip
 xclip -sel clip < ~/.ssh/id_rsa.pub
