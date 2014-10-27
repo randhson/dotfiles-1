@@ -73,6 +73,7 @@ All my command-line tools and it's configuration. Have fun :)
 * [GParted](http://gparted.org/) for partition edit
 * [gitg](https://github.com/jessevdk/gitg) for UI git
 * [Virtual Box](https://www.virtualbox.org/) for Virtual Machines
+* [Caffeine](https://launchpad.net/caffeine) for prevent computer to sleep
 
 ###### NodeJS
 

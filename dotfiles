@@ -177,6 +177,11 @@ sudo apt-get install gitg
 ### Virtual Box
 sudo apt-get install virtualbox
 
+### Caffeine
+sudo add-apt-repository ppa:caffeine-developers/ppa
+sudo apt-get update
+sudo apt-get install caffeine
+
 ######################################################## NodeJS
 
 ### NodeJS
