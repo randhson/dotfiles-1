@@ -2,6 +2,8 @@
 
 ![Screenshot](./screenshot.png)
 
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/randsonjs/dotfiles/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 My dotfiles for ubuntu, this setup will install everything I use on Ubuntu 14.04. You can also use, since it is setup installs really useful things. See below what it installs, I'll be happy if it is useful for you.
 
 ## Dependencies
@@ -107,7 +109,3 @@ All my command-line tools and it's configuration. Have fun :)
 
 ## License
 [MIT License](./LICENSE) © Randson Oliveira
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/randsonjs/dotfiles/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
