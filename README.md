@@ -107,3 +107,7 @@ All my command-line tools and it's configuration. Have fun :)
 
 ## License
 [MIT License](./LICENSE) © Randson Oliveira
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/randsonjs/dotfiles/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
