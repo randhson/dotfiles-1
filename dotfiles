@@ -200,6 +200,9 @@ sudo npm install -g grunt-cli
 ### NodeGH
 sudo npm install -g gh
 
+### Gulp
+sudo npm install -g gulp
+
 ######################################################## Ruby
 
 ######################################################## PHP

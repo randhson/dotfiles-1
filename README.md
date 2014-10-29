@@ -80,6 +80,7 @@ All my command-line tools and it's configuration. Have fun :)
 * [Bower](http://bower.io) for front-end package management
 * [Grunt CLI](http://gruntjs.com) for grunt command line interface
 * [NodeGH](http://github.com/node-gh/gh) GitHub command line tools
+* [Gulp](http://gulpjs.com) for streaming build system
 
 ###### Ruby
 
