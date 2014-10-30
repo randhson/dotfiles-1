@@ -43,6 +43,9 @@ echo "Installing php5-cli"
 sudo apt-get install php5-cli
 echo "php5-cli installed"
 
+### php5-mcrypt
+sudo apt-get install php5-mcrypt
+
 ######################################################## Shell
 
 ### GIT
