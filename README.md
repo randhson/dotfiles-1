@@ -6,6 +6,24 @@
 
 My dotfiles for ubuntu, this setup will install everything I use on Ubuntu 14.04. You can also use, since it is setup installs really useful things. See below what it installs, I'll be happy if it is useful for you.
 
+## Table of Contents
+
+* [Dependencies](https://github.com/randsonjs/dotfiles#dependencies)
+* [How to Install?](https://github.com/randsonjs/dotfiles#how-to-install)
+* [What's Included?](https://github.com/randsonjs/dotfiles#whats-included)
+  * [Essentials](https://github.com/randsonjs/dotfiles#essentials)
+  * [Shell](https://github.com/randsonjs/dotfiles#shell)
+  * [Editors](https://github.com/randsonjs/dotfiles#editors)
+  * [Themes](https://github.com/randsonjs/dotfiles#themes)
+  * [General](https://github.com/randsonjs/dotfiles#general)
+  * [NodeJS](https://github.com/randsonjs/dotfiles#nodejs)
+  * [Ruby](https://github.com/randsonjs/dotfiles#ruby)
+  * [PHP](https://github.com/randsonjs/dotfiles#php)
+  * [GitHub](https://github.com/randsonjs/dotfiles#github)
+* [Credits](https://github.com/randsonjs/dotfiles#credits)
+* [Contributing](https://github.com/randsonjs/dotfiles#contributing)
+* [License](https://github.com/randsonjs/dotfiles#license)
+
 ## Dependencies
 
 For install `adobe-flashplayer` you need follow these steps:
