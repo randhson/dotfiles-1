@@ -48,7 +48,13 @@ All my command-line tools and it's configuration. Have fun :)
 ###### Essentials
 
 * [cURL](http://curl.haxx.se/)
+* [PHP](http://php.net/) for last version of PHP
 * [php5-cli](http://www.php-cli.com/) for PHP command line
+* [MySQL](http://www.mysql.com/) The open-source Database
+* [Apache](http://httpd.apache.org/) for HTTP Server
+* [PHP Mcrypt](http://php.net/manual/en/book.mcrypt.php) Some things depends him
+* [phpmyadmin](http://www.phpmyadmin.net/home_page/index.php) for manage databases in browser
+* [MySQL Workbench](http://www.mysql.com/products/workbench/) for manage databases of the mysql
 
 ###### Shell
 
