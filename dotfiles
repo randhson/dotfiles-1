@@ -221,6 +221,9 @@ sudo npm install -g gh
 ### Gulp
 sudo npm install -g gulp
 
+### JSHint
+sudo npm install jshint
+
 ######################################################## Ruby
 
 ######################################################## PHP
