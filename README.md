@@ -117,6 +117,8 @@ All my command-line tools and it's configuration. Have fun :)
 
 ###### Ruby
 
+* [Jekyll](http://jekyllrb.com/) for static generated website development
+
 ###### PHP
 
 * [Composer](http://getcomposer.org) for Dependency Manager for PHP

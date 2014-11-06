@@ -229,6 +229,12 @@ sudo npm install -g express-generator
 
 ######################################################## Ruby
 
+### Ruby
+sudo apt-get install ruby ruby-dev make
+
+###w Jekyll
+sudo gem install jekyll --no-rdoc --no-ri
+
 ######################################################## PHP
 
 ### Composer
