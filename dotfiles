@@ -171,6 +171,12 @@ echo "Done, clementine is installed :P"
 ### Chromium Browser
 sudo apt-get install chromium-browser
 
+### Google Chrome Browser
+sudo apt-get install libxss1 libappindicator1 libindicator
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome*.deb
+sudo rm google-chrome-stable_current_amd64.deb
+
 ### Filezilla
 sudo apt-get install filezilla
 

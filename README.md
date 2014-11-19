@@ -97,6 +97,7 @@ All my command-line tools and it's configuration. Have fun :)
 * [Unity Tweak Tool](https://apps.ubuntu.com/cat/applications/unity-tweak-tool/) for manage themes and others stuff
 * [Clementine](https://www.clementine-player.org/) the best music player
 * [Chromium Browser](http://www.chromium.org/Home) Chromium Browser
+* [Google Chrome](http://www.google.com.br/chrome/browser/) Google Chrome Browser
 * [Filezilla](https://filezilla-project.org/) for FTP Client
 * [VLC Media Player](http://www.videolan.org/vlc/) for video player
 * [Adobe Flash Player Plugin]() for videos on chromium
