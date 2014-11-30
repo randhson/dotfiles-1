@@ -115,6 +115,7 @@ All my command-line tools and it's configuration. Have fun :)
 * [Gulp](http://gulpjs.com) for streaming build system
 * [JSHint](http://jshint.com/) for detect errors and potential problems in your JavaScript code.
 * [Express](http://expressjs.com/)
+* [HarpJS](http://harpjs.com/) for static web server with built-in preprocessing.
 
 ###### Ruby
 
