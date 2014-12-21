@@ -274,3 +274,6 @@ ssh-add ~/.ssh/id_rsa
 sudo apt-get install xclip
 xclip -sel clip < ~/.ssh/id_rsa.pub
 echo "Now, you can paste ssh key on github"
+
+# Tell ubuntu to do nothing when I close my laptop lid
+# http://askubuntu.com/questions/15520/how-can-i-tell-ubuntu-to-do-nothing-when-i-close-my-laptop-lid
