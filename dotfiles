@@ -34,14 +34,10 @@ read git_email
 ######################################################## Essentials
 
 ### cURL
-echo "Installing cURL"
 sudo apt-get install curl
-echo "Done, cURL successful installed."
 
 ### php5-cli
-echo "Installing php5-cli"
 sudo apt-get install php5-cli
-echo "php5-cli installed"
 
 ### php5
 sudo apt-get install php5
@@ -69,53 +65,40 @@ sudo apt-get install popcorn-time
 ######################################################## Shell
 
 ### GIT
-echo "Installing dependencies for git..."
 sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \
   libz-dev libssl-dev
-echo "Installing git..."
 sudo apt-get install git
 sudo git config --global user.name "$git_username"
 sudo git config --global user.email "$git_email"
 sudo git config --global color.ui auto
-echo "Successful installed git..."
 
 ### ZSH
-echo "Installing ZSH..."
 sudo apt-get install zsh
 sudo apt-get install git-core
-echo "ZSH installed..."
 
 ### Oh My ZSH
-echo "Downloading oh-my-zsh"
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
-echo "Define zsh default shell..."
 chsh -s `which zsh`
 
 ######################################################## Editors
 
 ### Sublime Text 3
-echo "Adding ppa for sublime..."
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
 sudo apt-get install sublime-text-installer
-echo "Sublime is now installed..."
 
 ######################################################## Themes
 
 ### Dracula Theme for ZSH
 git clone https://github.com/zenorocha/dracula-theme/
-echo "Moving zsh theme for oh-my-zsh directory"
 sudo mv dracula-theme/zsh/dracula.zsh-theme ~/.oh-my-zsh/themes/dracula.zsh-theme
-echo "Remove folder dracula-theme"
 sudo rm -r draculda-theme
-echo "Copy template zsh"
 sudo cp templates/.zsh ~/.zshrc
 
 
 ### Dracula Color Scheme Sublime Text 3
 git clone https://github.com/zenorocha/dracula-theme/ "Dracula Color Scheme"
 sudo mv Dracula\ Color\ Scheme ~/.config/sublime-text-3/Packages
-echo "Now, select color scheme dracula on your sublime :)"
 
 ### Spacegray Theme Sublime Text 3
 git clone https://github.com/kkga/spacegray.git "Theme - Spacegray"
@@ -130,48 +113,35 @@ curl https://sublime.wbond.net/Package%20Control.sublime-package -o ~/.config/su
 ######################################################## General
 
 ### Skype
-echo "Installing dependencies for skype..."
 sudo apt-get install libqt4-dbus libqt4-network libqt4-xml libasound2
-echo "Downloading skype from skype.com ..."
 if [ "$BI" -eq 64 ]; then
   wget http://www.skype.com/go/getskype-linux-beta-ubuntu-64
 else
   wget http://www.skype.com/go/getskype-linux-beta-ubuntu-32
 fi
 
-echo "Decompressing skype package and install..."
 sudo dpkg -i getskype-*
 sudo apt-get -f install
-echo "Done, now skype is installed..."
 
 ### Numix
-echo "Installing numix-gtk theme on ubuntu..."
 sudo add-apt-repository ppa:numix/ppa
 sudo apt-get update
 sudo apt-get install numix-gtk-theme
 sudo apt-get update
 sudo apt-get install numix-icon-theme-circle
-echo "Numix GTK theme and icon theme circle successfull installed"
 
 ### Plank
-echo "Adding ppa for plank..."
 sudo add-apt-repository ppa:ricotz/docky
-echo "Installing plank..."
 sudo apt-get update
 sudo apt-get install plank
-echo "Plank successful installed"
 
 ### Unity Tweak Tool
-echo "Adding ppa for UTT..."
 sudo add-apt-repository ppa:freyja-dev/unity-tweak-tool-daily
 sudo apt-get update
 sudo apt-get install unity-tweak-tool
-echo "Done..."
 
 ### Clementine
-echo "Downloading clementine..."
 sudo apt-get install clementine
-echo "Done, clementine is installed :P"
 
 ### Chromium Browser
 sudo apt-get install chromium-browser
@@ -192,7 +162,6 @@ sudo apt-get install vlc
 sudo apt-get install adobe-flashplugin
 
 ### Pidgin
-echo "Installing pidgin chat client"
 sudo add-apt-repository -y ppa:pidgin-developers/ppa
 sud apt-get update
 sudo apt-get install pidgin
@@ -214,11 +183,8 @@ sudo apt-get install caffeine
 ######################################################## NodeJS
 
 ### NodeJS
-
-echo "Installing nodejs..."
 curl -sL https://deb.nodesource.com/setup | sudo bash -
 sudo apt-get install nodejs
-echo "nodejs and npm successful installed..."
 
 ### Bower
 sudo npm install -g bower
@@ -252,11 +218,8 @@ sudo gem install jekyll --no-rdoc --no-ri
 ######################################################## PHP
 
 ### Composer
-echo "Downloading composer..."
 curl -sS https://getcomposer.org/installer | php
-echo "Moving composer.phar to /usr/local/bin/composer ..."
 sudo mv composer.phar /usr/local/bin/composer
-echo "Done, now you can use composer command :)"
 
 ### PHPUnit
 wget https://phar.phpunit.de/phpunit.phar
@@ -267,13 +230,11 @@ phpunit --version
 ######################################################## GitHub
 
 ### xclip - generate ssh key for github
-echo "Generate you SSH key for github"
 ssh-keygen -t rsa -C "$git_email"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 sudo apt-get install xclip
 xclip -sel clip < ~/.ssh/id_rsa.pub
-echo "Now, you can paste ssh key on github"
 
 # Tell ubuntu to do nothing when I close my laptop lid
 # http://askubuntu.com/questions/15520/how-can-i-tell-ubuntu-to-do-nothing-when-i-close-my-laptop-lid
