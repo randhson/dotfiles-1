@@ -135,6 +135,11 @@ sudo add-apt-repository ppa:ricotz/docky
 sudo apt-get update
 sudo apt-get install plank
 
+### MokaIcon
+sudo add-apt-repository ppa:moka/stable
+sudo apt-get update
+sudo apt-get install moka-icon-theme
+
 ### Unity Tweak Tool
 sudo add-apt-repository ppa:freyja-dev/unity-tweak-tool-daily
 sudo apt-get update
