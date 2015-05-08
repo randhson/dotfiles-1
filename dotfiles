@@ -210,9 +210,6 @@ sudo npm install jshint
 ### Express
 sudo npm install -g express-generator
 
-### HarpJS
-sudo npm install -g harp
-
 ######################################################## Ruby
 
 ### Ruby
