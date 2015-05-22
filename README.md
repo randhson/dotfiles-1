@@ -66,12 +66,6 @@ All my command-line tools and it's configuration. Have fun :)
 ###### Essentials
 
 * [cURL](http://curl.haxx.se/)
-* [PHP](http://php.net/) for last version of PHP
-* [php5-cli](http://www.php-cli.com/) for PHP command line
-* [MySQL](http://www.mysql.com/) The open-source Database
-* [Apache](http://httpd.apache.org/) for HTTP Server
-* [PHP Mcrypt](http://php.net/manual/en/book.mcrypt.php) Some things depends him
-* [phpmyadmin](http://www.phpmyadmin.net/home_page/index.php) for manage databases in browser
 * [MySQL Workbench](http://www.mysql.com/products/workbench/) for manage databases of the mysql
 
 ###### Shell
@@ -82,12 +76,7 @@ All my command-line tools and it's configuration. Have fun :)
 
 ###### Editors
 
-* [Sublime Text 3](http://sublimetext.com/3) Code Editor
-
 ###### Themes
-
-* [Spacegray](http://kkga.github.io/spacegray) for better theme on Sublime Text 3
-* [Dracula]() for better syntax highlight for [ZSH](http://zsh.org/), [iTerm2](http://www.iterm2.com/) and [Alfred](http://www.alfredapp.com/)
 
 ###### General
 
@@ -130,7 +119,7 @@ All my command-line tools and it's configuration. Have fun :)
 
 ## Credits
 
-* Themes based on [@zenorocha Dracula](https://github.com/zenorocha/dracula-theme)
+* Themes based on [@zenorocha Dracula](https://github.com/zenorocha/dracula-theme) for Sublime
 
 ## Contributing
 
