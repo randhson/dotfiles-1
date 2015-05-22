@@ -1,9 +1,5 @@
 # Randson's dotfiles
 
-![Screenshot](./screenshot.png)
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/randsonjs/dotfiles/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
 My dotfiles for ubuntu, this setup will install everything I use on Ubuntu 14.04. You can also use, since it is setup installs really useful things. See below what it installs, I'll be happy if it is useful for you.
 
 ## Table of Contents
@@ -13,23 +9,12 @@ My dotfiles for ubuntu, this setup will install everything I use on Ubuntu 14.04
 * [What's Included?](https://github.com/randsonjs/dotfiles#whats-included)
   * [Essentials](https://github.com/randsonjs/dotfiles#essentials)
   * [Shell](https://github.com/randsonjs/dotfiles#shell)
-  * [Editors](https://github.com/randsonjs/dotfiles#editors)
   * [Themes](https://github.com/randsonjs/dotfiles#themes)
   * [General](https://github.com/randsonjs/dotfiles#general)
-  * [NodeJS](https://github.com/randsonjs/dotfiles#nodejs)
-  * [Ruby](https://github.com/randsonjs/dotfiles#ruby)
-  * [PHP](https://github.com/randsonjs/dotfiles#php)
   * [GitHub](https://github.com/randsonjs/dotfiles#github)
 * [Credits](https://github.com/randsonjs/dotfiles#credits)
 * [Contributing](https://github.com/randsonjs/dotfiles#contributing)
 * [License](https://github.com/randsonjs/dotfiles#license)
-
-## Dependencies
-
-For install `adobe-flashplayer` you need follow these steps:
-
-1. Open `Software and Updates` in `System Settings`  and set Canonical Partners in Other Software.
-2. Do nothing, the dotfiles will install for you :)
 
 ## How to install?
 
@@ -85,33 +70,11 @@ All my command-line tools and it's configuration. Have fun :)
 * [Plank](http://wiki.go-docky.com/index.php?title=Plank:Installing)
 * [Unity Tweak Tool](https://apps.ubuntu.com/cat/applications/unity-tweak-tool/) for manage themes and others stuff
 * [Clementine](https://www.clementine-player.org/) the best music player
-* [Chromium Browser](http://www.chromium.org/Home) Chromium Browser
 * [Google Chrome](http://www.google.com.br/chrome/browser/) Google Chrome Browser
-* [Filezilla](https://filezilla-project.org/) for FTP Client
 * [VLC Media Player](http://www.videolan.org/vlc/) for video player
-* [Adobe Flash Player Plugin]() for videos on chromium
-* [Pidgin](https://pidgin.im/) for chat client
 * [GParted](http://gparted.org/) for partition edit
 * [gitg](https://github.com/jessevdk/gitg) for UI git
 * [Virtual Box](https://www.virtualbox.org/) for Virtual Machines
-* [Caffeine](https://launchpad.net/caffeine) for prevent computer to sleep
-
-###### NodeJS
-
-* [Bower](http://bower.io) for front-end package management
-* [Grunt CLI](http://gruntjs.com) for grunt command line interface
-* [NodeGH](http://github.com/node-gh/gh) GitHub command line tools
-* [Gulp](http://gulpjs.com) for streaming build system
-* [JSHint](http://jshint.com/) for detect errors and potential problems in your JavaScript code.
-
-###### Ruby
-
-* [Jekyll](http://jekyllrb.com/) for static generated website development
-
-###### PHP
-
-* [Composer](http://getcomposer.org) for Dependency Manager for PHP
-* [PHPUnit](https://phpunit.de) for PHP Test
 
 ###### GitHub
 
