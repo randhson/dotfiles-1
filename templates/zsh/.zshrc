@@ -45,7 +45,11 @@ ZSH_THEME="randsonjs"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git, tmux)
+
+# Plugins
+# Automatically start a tmux session upon logging in. Set to false by default.
+ZSH_TMUX_AUTOSTART=true
 
 # User configuration
 
