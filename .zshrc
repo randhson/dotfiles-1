@@ -88,7 +88,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vm="ssh vagrant@127.0.0.1 -p 2222"
-alias git="hub"
+alias git="hub" # Use hub https://github.com/github/hub
 alias ap="sudo aptitude"
 alias zshrc="subl ~/.zshrc"
 
