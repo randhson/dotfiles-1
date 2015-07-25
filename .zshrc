@@ -50,7 +50,7 @@ setopt extendedhistory
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git, tmux, last-working-dir)
+plugins=(git, tmux, last-working-dir, zsh-syntax-highlighting)
 
 # Plugins
 # Automatically start a tmux session upon logging in. Set to false by default.
