@@ -61,6 +61,8 @@ All my command-line tools and it's configuration. Have fun :)
 
 ###### Editors
 
+* [Visual Code]
+
 ###### Themes
 
 ###### General
