@@ -10,7 +10,6 @@
 #
 ########################################################
 
-# Create your here: http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20
 echo '      _       _    __ _ _           '
 echo '     | |     | |  / _(_) |          '
 echo '   __| | ___ | |_| |_ _| | ___  ___ '
@@ -60,10 +59,9 @@ chsh -s `which zsh`
 
 ######################################################## Editors
 
-### Sublime Text 3
-sudo add-apt-repository ppa:webupd8team/sublime-text-3
+### Visual Code
 sudo apt-get update
-sudo apt-get install sublime-text-installer
+sudo apt-get install code
 
 ######################################################## General
 
